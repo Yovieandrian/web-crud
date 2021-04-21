@@ -1,0 +1,27 @@
+	/*Konten*/
+
+		
+		.wrap-img-sale {
+			height: 80%;
+			width: 90%;
+			align-items: center;
+			z-index: -5;
+		}
+
+		.content {
+			margin-left: 250px;
+			height: 200vh;
+			background: url(filegambar/projectku.jpg) no-repeat;
+			background-position: center;
+			background-size: cover;
+			transition: 0.5s;
+		}
+
+		#check:checked ~ .content{
+			margin-left: 60px;
+
+		}
+
+		#check {
+			display: none;
+		}

@@ -1,0 +1,24 @@
+		
+
+		* {
+			font-family: "Roboto", sans-serif;
+		}
+
+		.logo img {
+			width: 350px;
+			height: 235px;
+			margin-top: 30px;
+			margin-left: -5px;
+			border-radius: 15%;
+			background: rgba(3,3,3,0.8);
+			opacity: 5;
+			overflow: hidden;
+			box-shadow: 7px 2px 28px #000;
+			box-sizing: 20px;
+		}
+		.content {
+			margin-left: 250px;
+			background-position: center;
+			height: 200vh;
+			transition: 0.5s;
+		}

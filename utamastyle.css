@@ -1,0 +1,221 @@
+.header {
+	background: url(filegambar/header4.jpg);
+	background-size: cover;
+	height: 190px;
+	width: 100%;
+	position: fixed;
+	color: #CD853F;
+	padding-top: 10px;
+}
+
+.container {
+	display: block;
+	max-width: 1200px;
+	max-height: 4200px;
+	margin-bottom: 22px;
+	
+}
+
+
+.title {
+	position: absolute;
+	top: 20%;
+	left: 29%;
+}
+
+.title h1{
+	color: darkgrey;
+	font-family: system-ui;
+	font-size: 40px;
+	text-shadow: 5px 3px 5px #CD853F;
+	letter-spacing: 3px;
+}
+
+.title h4{
+	text-align: center;
+	color: #CD853F;
+	text-shadow: 5px 3px 5px black;
+	font-family: 'Pacifico', cursive;
+}
+
+
+.icon-media {
+	width: 24px;
+	height: 24px;
+	margin-left: 2px;
+	margin-right: 2px;
+	align-items: center; 
+}
+
+.login-contact {
+	margin-bottom: -75px;
+	margin-right: 15px;
+}
+
+/*Logo brand*/
+.brand {
+	margin-top: -10px;
+}
+
+.logo-brand {
+	width: 200px;
+	height: 135px;
+	margin-top: 30px;
+	margin-left: -5px;
+	border-radius: 15%;
+	background: rgba(3,3,3,0.8);
+	opacity: 5;
+	overflow: hidden;
+	box-shadow: 7px 2px 28px #000;
+	box-sizing: 20px;
+}
+
+/*pencarian*/
+.wrap-search {
+	position: relative;
+	margin-left: 70px;
+	margin-right: 20px;
+	margin-top: 120px;
+	width: 650px;
+	height: 37px;
+	background: black;
+	border-radius: 8px;
+}
+
+.wrap-icon-s {
+	position: absolute;
+	width: 60px;
+	height: 87px;
+	right: -2px;
+	top: 20px;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-control {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	border: none;
+	border-radius: 8px;
+	background-color: darkgrey;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-radius: 8px;
+}
+
+.form-control input::placeholder {
+	color: black;
+}
+
+/*login - contact us*/
+.login-contact2 {
+	text-align: center;
+	margin-bottom: -15px;
+}
+
+.nav-header {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	border-color: transparent;
+}
+
+.nav-header ul li{
+	justify-content: center;
+	display: block;
+}
+
+.nav-header ul li:hover{
+	justify-content: center;
+	display: block;
+}
+
+.nav-header ul li img{
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+}
+
+.nav-header ul li a{
+	text-decoration: none;
+	color: #CD853F
+	justify-content: center;
+}
+
+.nav-header ul li ul li{
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	width: auto;
+	border-bottom: 0px;
+}
+
+.nav-header ul li ul li a{
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-header ul li ul li a .img-link{
+	display: flex;
+	justify-content: center;
+	width: 25px;
+	height: 25px;
+}
+
+.navigasi {
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+/*Konten*/
+.content {
+	position: relative;
+	top: 190px;
+}
+
+/*Carousel*/
+.wrap-carousel {
+	top: 10px;
+	height: 400px;
+	position: relative;
+	border-radius: 0%;
+	background-color: white;
+}
+
+/*Tentang Toko Kami*/
+.about-me {
+	top: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: white;
+	padding: 20px;
+}
+
+/*Accesories*/
+
+.harga {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrap-img-sale {
+	height: 70%;
+	width: 90%;
+}
+
+

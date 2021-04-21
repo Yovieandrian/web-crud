@@ -1,0 +1,47 @@
+		
+
+		* {
+			font-family: "Roboto", sans-serif;
+		}
+
+		table {
+			border: 1px solid #ddeeee;
+			border-collapse: collapse;
+			border-spacing: 0;
+			width: 95%;
+			margin: auto auto auto auto;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+		table thead th {
+			background-color: #CD853F;
+			border: 1px solid #ddeeee;
+			color: lightgrey;
+			padding: 10px;
+			text-align: left;
+			text-shadow: 1px 1px 1px black;
+		}
+
+		table tbody td {
+			border: 1px solid white;
+			color: lightgrey;
+			font-weight: bold;
+			padding: 10px;
+			text-shadow: 1px 1px 1px black;
+		}
+
+		a {
+			color: #fff;
+		}
+
+		a:hover {
+			background: rgba(95, 158, 160);
+			outline: none;
+		}
+		.content {
+			margin-left: 250px;
+			background-position: center;
+			height: 200vh;
+			transition: 0.5s;
+		}

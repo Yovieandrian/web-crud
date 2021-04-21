@@ -1,0 +1,99 @@
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "Roboto", sans-serif;
+		}
+
+		header {
+			position: fixed; 
+			background: #22242A; 
+			padding: 20px; 
+			width: 100%; 
+			height: 50px;
+			z-index: 3;
+		}
+
+		.sidebar {
+			z-index: 2;
+			background-color: #2F323A;
+			margin-top: 30px;
+			padding-top: 30px;
+			position: fixed;
+			left: 0;
+			width: 250px;
+			height: 100%;
+			transition: 0.5s;
+			transition-property: left;
+		}
+
+		.sidebar .profile_image {
+			width: 100px;
+			height: 100px;
+			border-radius: 100px;
+			margin-bottom: 10px;
+		}
+
+		.sidebar a{
+			color: #fff;
+		}
+
+		.sidebar a:hover{
+			background: #19B3D3;
+		}
+
+		.sidebar i{
+			padding-right: 20px;
+
+		}
+
+		label #sidebar_btn{
+			z-index: 1;
+			color: #fff;
+			position: fixed;
+			cursor: pointer;
+			left: 25px;
+			font-size: 30px;
+			margin: -18px 0; 
+			transition: 0.5s;
+			transition-property: color;
+		}
+
+		label #sidebar_btn:hover{
+			color: #19B3D3;
+		}
+
+		#check:checked ~ .sidebar{
+			left: -190px;
+		}
+
+		#check:checked ~ .sidebar a span{
+			display: none;
+		}
+
+		#check:checked ~ .sidebar a i{
+			font-size: 20px;
+			margin-left: 170px;
+			width: 80px;
+		}
+
+		.content {
+			background: url(filegambar/projectku.jpg) no-repeat;
+			background-position: center;
+			background-size: cover;
+			height: 100vh;
+			transition: 0.5s;
+			margin-left: 250px;
+			transition: 0.5s;
+			margin: 0;
+			padding: 0;
+		}
+		
+
+		#check:checked ~ .content{
+			margin-left: 60px;
+
+		}
+
+		#check {
+			display: none;
+		}
